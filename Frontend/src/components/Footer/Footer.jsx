@@ -8,30 +8,37 @@ const Footer = () => {
   return (
     <div className='container'>
       <div className="footerbody">
-        <div className="help">
-          <h3>Help</h3>
+        <div className="infor">
+          <h3 className='headings'>Help</h3>
+          <div className="text">
           <p>+923475495500</p>
           <p>+923554214164(Text)</p>
-          <p>Abdupa911@gmail.com</p>
+          <Link className='link' to="#">Abdupa911@gmail.com</Link>
           <p>Return/Exchanges</p>
           <p>FAQ/Contact Us</p>
           <p>After Pay</p>
+          </div>
         </div>
-        <div className="shop">
-          <h3>Shop</h3>
+        <div className="infor">
+          <h3 className='headings'>Shop</h3>
+          <div className="text">
           <p>Men's Shoes</p>
           <p>Women's Shoes</p>
 
+          </div>
         </div>
-        <div className="company">
-          <h3>Company</h3>
+        <div className="infor">
+          <h3 className='headings'>Company</h3>
+          <div className="text">
           <p>Our's Store</p>
           <p>Our's Materials</p>
           <p>Investors</p>
 
+          </div>
         </div>
-        <div className="allBasit">
-          <h3>AllBasit's Responsible Disclosure Program</h3>
+        <div className="infor">
+          <h3 className='headings'>AllBasit's Responsible Disclosure Program</h3>
+          <div className="text">
           <p>Pakistan Transparency Act
             Community Offers
             Our Blog - The Perch
@@ -39,14 +46,15 @@ const Footer = () => {
             <p>Exclusive offers, a heads up on new things, and sightings of AllBasit's in the wild. Oh, we have cute sheep, too. #allbasit
 
 </p>
+          </div>
 
         </div>
       </div>
       <div className="footerpart">
         <div className="icon">
-          <Link to='https://www.Instagram.com' target='_blank'>   <InstagramIcon/> </Link>
-          <Link to="https://www.facebook.com" target='_blank'><FacebookIcon/></Link>
-          <Link to="https://www.whatsapp.com" target='_blank'><WhatsAppIcon/></Link>
+          <Link className='link' to='https://www.Instagram.com' target='_blank' title='Instagram'>   <InstagramIcon/> </Link>
+          <Link className='link' to="https://www.facebook.com" target='_blank' title='Facebook'><FacebookIcon/></Link>
+          <Link className='link' to="https://www.whatsapp.com" target='_blank' title='Whatsapp'><WhatsAppIcon/></Link>
         </div>
         <div className="copyright">
           <p>© 2024 Allbasit, Inc. All Rights Reserved. <Link to="#">Terms</Link> , <Link to="#">Privacy</Link> & <Link to="#">Accessibility</Link></p>
