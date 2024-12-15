@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footerbody">
         <div className="infor">
           <h3 className='headings'>Help</h3>
-          <div className="text">
+          <div className="text t3">
           <p>+923475495500</p>
           <p>+923554214164(Text)</p>
           <Link className='link' to="#">Abdupa911@gmail.com</Link>
@@ -21,15 +21,15 @@ const Footer = () => {
         </div>
         <div className="infor">
           <h3 className='headings'>Shop</h3>
-          <div className="text">
+          <div className="text t3">
           <p>Men's Shoes</p>
           <p>Women's Shoes</p>
 
           </div>
         </div>
-        <div className="infor">
+        <div className="infor ">
           <h3 className='headings'>Company</h3>
-          <div className="text">
+          <div className="text t3">
           <p>Our's Store</p>
           <p>Our's Materials</p>
           <p>Investors</p>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="infor">
           <h3 className='headings'>AllBasit's Responsible Disclosure Program</h3>
-          <div className="text">
+          <div className="text t3">
           <p>Pakistan Transparency Act
             Community Offers
             Our Blog - The Perch
@@ -57,7 +57,7 @@ const Footer = () => {
           <Link className='link' to="https://www.whatsapp.com" target='_blank' title='Whatsapp'><WhatsAppIcon/></Link>
         </div>
         <div className="copyright">
-          <p>© 2024 Allbasit, Inc. All Rights Reserved. <Link to="#">Terms</Link> , <Link to="#">Privacy</Link> & <Link to="#">Accessibility</Link></p>
+          <p>© 2024 Allbasit, Inc. All Rights Reserved. <span className='t3'><Link to="#" className='link'>Terms</Link> , <Link to="#" className='link'>Privacy</Link> & <Link to="#" className='link'>Accessibility</Link> </span> </p>
           <p>  Do Not Sell My Personal Information</p>
         </div>
       </div>
