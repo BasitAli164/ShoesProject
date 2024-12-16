@@ -1,7 +1,7 @@
 import React from 'react'
 import './Product.css'
 import Cart from '../../components/Card/Cart'
-
+import productImage from '../../assets/image/card/card1/5.avif'
 
 const Product = () => {
   return (
@@ -15,7 +15,14 @@ const Product = () => {
         </div>
         <div className="productDetail">
           <h1>Detail</h1>
+          <div className="CartCompo">
+          <Cart productImage={productImage} productName="Men's Shoes" productPrice="1234$"/>
           <Cart/>
+          <Cart/>
+          <Cart/>
+          <Cart/>
+          <Cart/>
+          </div>
         </div>
         </div>      
     </div>

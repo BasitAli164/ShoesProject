@@ -32,3 +32,10 @@
     display: flex;
     flex-direction: column;
 }
+.CartCompo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
