@@ -6,7 +6,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
-    <div className='container'>
+    <div className='footerContainer'>
       <div className="footerbody">
         <div className="infor">
           <h3 className='headings'>Help</h3>

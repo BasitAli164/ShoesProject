@@ -1,0 +1,34 @@
+.productContainer{
+    width: 100%;
+    height: auto;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.productSwitch{
+    width: 100%;
+    height: auto;
+    background: #e9e9e9;
+    margin-top: 6%;
+    padding: 5px;
+}
+.productBody{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: green;
+}
+.productFilter{
+    width: 25%;
+    height: auto;
+    background-color: blueviolet;
+}
+.productDetail{
+    width: 75%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
