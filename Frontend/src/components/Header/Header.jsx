@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className='header'>
         <section className='logoSection'>
-            <img src={logo} alt="Logo" />
+            <img onClick={()=>navigate('/')} src={logo} alt="Logo" />
         </section>
         <section className='listSection'>
             <ul>

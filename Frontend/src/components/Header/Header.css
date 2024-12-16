@@ -9,6 +9,7 @@
 }
 .logoSection img{
     width: 100px ;
+    cursor: pointer;
 
 }
 .listSection ul{
@@ -28,6 +29,7 @@
     align-items: center;
     gap: 25px;
     color: #fff;
+    margin-right: 20px;
 }
 .listSection ul li:hover{
     cursor: pointer;
