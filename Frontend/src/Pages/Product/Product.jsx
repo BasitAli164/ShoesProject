@@ -2,8 +2,9 @@ import React from 'react'
 import './Product.css'
 import Cart from '../../components/Card/Cart'
 import productImage from '../../assets/image/card/card1/5.avif'
-
+import {dummyProducts} from '../../assets/Data.js'
 const Product = () => {
+  console.log(dummyProducts)
   return (
     <div className='productContainer'>
       <div className="productSwitch">
@@ -16,12 +17,14 @@ const Product = () => {
         <div className="productDetail">
           <h1>Detail</h1>
           <div className="CartCompo">
-          <Cart productImage={productImage} productName="Men's Shoes" productPrice="1234$"/>
-          <Cart/>
-          <Cart/>
-          <Cart/>
-          <Cart/>
-          <Cart/>
+            {
+              dummyProducts.map((item)=>(
+                <Cart productImage={item.images[0]} productName={item.title} productPrice={item.price}/>
+
+              ))
+              
+            }
+         
           </div>
         </div>
         </div>      

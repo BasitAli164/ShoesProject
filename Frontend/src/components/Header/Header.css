@@ -8,6 +8,7 @@
     background: #17a589;
     opacity: 10;
     position: fixed;
+    z-index: 1;
 }
 .logoSection img{
     width: 100px ;
