@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import for navigation
-import { Box, TextField, Button, Grid, Card, CardContent, CardMedia, Typography, Tooltip, IconButton, InputAdornment } from '@mui/material';
+import { useState } from 'react';
+import { Box, TextField, Grid, Card, CardContent, CardMedia, Typography, Tooltip, IconButton, InputAdornment } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 import { useProductStore } from '../context/ProductContext';
@@ -10,7 +9,6 @@ const Search = () => {
   const [query, setQuery] = useState('');
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [submitted, setSubmitted] = useState(false);
-  const navigate = useNavigate(); // Hook for navigation
   const searchItem = products.result;
 
   const handleSubmit = (e) => {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Grid, Paper, Typography, Box, List, ListItem, ListItemText, Divider, Avatar, Chip, Collapse, IconButton, Button } from '@mui/material';
 import { AccountCircle, ShoppingCart, Favorite, ExpandMore, ExpandLess, Edit, Delete, AddShoppingCart } from '@mui/icons-material';
 

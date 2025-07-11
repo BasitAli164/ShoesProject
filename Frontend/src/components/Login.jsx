@@ -16,7 +16,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 import {useAuthStore}  from '../context/AuthContext';
 import { Email,  Visibility, VisibilityOff } from '@mui/icons-material'; // Import icons
-import { useProductStore } from '../context/ProductContext';
 
 const Login = () => {
   const { login } = useAuthStore();
@@ -54,7 +53,7 @@ const Login = () => {
         }, 1500); // 1.5-second delay
       }
     } catch (error) {
-      // console.error('Login failed:', error);
+      console.error('Login failed:', error);
       setErrorMessage('Invalid email or password. Please try again.');
       toast.error('Login failed: Invalid email or password.');
     }

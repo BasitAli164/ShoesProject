@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Button,
@@ -10,7 +10,7 @@ import {
   CardHeader,
   InputAdornment,
 } from '@mui/material';
-import { Person, Email, Phone, LocationCity, Visibility, VisibilityOff, CameraAlt } from '@mui/icons-material'; // Import icons
+import { Person, Email, Phone, LocationCity, Visibility, VisibilityOff,  } from '@mui/icons-material'; // Import icons
 import axios from 'axios'; // Import Axios
 
 const SignUp = () => {
@@ -77,7 +77,7 @@ const SignUp = () => {
         navigate('/login'); // Redirect to login page after successful signup
       }
     } catch (error) {
-      setErrorMessage('Failed to register. Please try again.'); // Set error message
+      setErrorMessage('Failed to register. Please try again.',error); // Set error message
     }
   };
 
