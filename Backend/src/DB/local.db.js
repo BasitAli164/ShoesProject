@@ -10,7 +10,7 @@ const databaseConnection=async()=>{
     } catch (error) {
         console.log(`Database Connection error us: ${error}`)
 
-        
+         
     }
 }
 export default databaseConnection;
