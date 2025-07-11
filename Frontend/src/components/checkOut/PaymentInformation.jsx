@@ -1,5 +1,4 @@
 // PaymentInformation.js
-import React from 'react';
 import { Box, Typography, TextField, FormControl, RadioGroup, FormControlLabel, Radio } from '@mui/material';
 import { Field, ErrorMessage } from 'formik';
 

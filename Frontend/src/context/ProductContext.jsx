@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-export const useProductStore = create((set, get) => ({
+export const useProductStore = create((set) => ({
   products: [],
   
   // Action to fetch products from backend with optional size (number) and color (string) query parameters

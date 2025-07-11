@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Box,
   Typography,
@@ -40,7 +39,7 @@ const Confirmation = ({ values }) => {
     purchaseProduct(productDetail, shippingDetail, paymentDetail, others, navigate);
   };
 
-  const EqualHeightCard = styled(Card)(({ theme }) => ({
+  const EqualHeightCard = styled(Card)(() => ({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',

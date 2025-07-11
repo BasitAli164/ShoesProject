@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Box,
-  Grid,
   Typography,
   List,
   ListItem,
@@ -16,11 +14,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import SettingsIcon from '@mui/icons-material/Settings';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import ProfileSection from './ProfileSection';
 import WishlistSection from './WishlistSection';
-import image from '../../public/image/personal/my.png';
 import { useAuthStore } from '../context/AuthContext';
 import OrderHistory from './OrdersSection';
 

@@ -1,5 +1,5 @@
 // Checkout.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Box,
   Button,
@@ -22,8 +22,6 @@ import ShippingInformation from './ShippingInformation';
 import PaymentInformation from './PaymentInformation';
 import Confirmation from './Confirmation';
 
-const currentYear = new Date().getFullYear();
-const currentMonth = new Date().getMonth() + 1; // Month is 0-indexed
 
 const steps = ['Shipping Information', 'Payment Information', 'Confirmation'];
 
