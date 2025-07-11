@@ -8,7 +8,7 @@ const databaseConnection=async()=>{
         console.log(`Database Connect at ${process.env.DATABASENAME} Successfully........!`)
         
     } catch (error) {
-        console.log(`Database Connection error: ${error}`)
+        console.log(`Database Connection error us: ${error}`)
 
         
     }
