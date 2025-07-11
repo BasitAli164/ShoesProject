@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Container,
   TextField,
@@ -44,7 +44,7 @@ const ContactPage = () => {
       values,
       '5pdpE_sHrxlMq8_MF'          // Replace with your EmailJS user ID
     )
-    .then((response) => {
+    .then(() => {
       setFormStatus('success');
       resetForm();
     })

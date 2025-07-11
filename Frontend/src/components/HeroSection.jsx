@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Box, Typography, Link, Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom'; // To handle navigation
 import bgimage1 from '../assets/image/backgroundImage/backgroundImage1.avif';
