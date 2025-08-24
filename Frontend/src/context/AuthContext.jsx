@@ -13,7 +13,7 @@ export const useAuthStore = create((set, get) => ({
     // Fetch user data
     fetchUserData: async () => {
         const { token, userId } = get();
-        if (!token || !userId) return;
+        if (!token || !userId) return "no thing";
 
         try {
             const response = await axios.get(`http://localhost:8000/api/customer/get/${userId}`, {
