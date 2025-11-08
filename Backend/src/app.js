@@ -2,10 +2,10 @@
 import express from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser';
-import routerPro from './route/product.router.route.js';
-import router from './route/customer.route.js';
-import purchaseRouter from './route/parchaseProd.route.js';
-import wishRoute from './route/wishlist.route.js';
+import routerPro from './routes/product.router.route.js';
+import router from './routes/customer.route.js';
+import purchaseRouter from './routes/parchaseProd.route.js';
+import wishRoute from './routes/wishlist.route.js';
 
 
 
